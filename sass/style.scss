@@ -5,7 +5,6 @@
 // Normalize, Clearfix, & Toolkit
 @import "normalize";
 @import "clearfix";
-@import "toolkit";
 
 // Universal Box-Sizing
 *,
@@ -30,9 +29,12 @@ input[type="search"] {
 @import "comments";
 @import "sidebars";
 @import "footer";
+@import "plugins";
 
 // Print
 @import "print";
 
 // Shame - For new style snippets that haven't been sorted and commented yet
 @import "shame";
+
+@import "responsive";
